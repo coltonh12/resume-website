@@ -1,1 +1,43 @@
 /* Add screen styles below */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #666;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #666;
+}
