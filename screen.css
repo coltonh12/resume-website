@@ -41,3 +41,13 @@ footer {
     text-align: center;
     color: #666;
 }
+
+.bullet-points {
+    list-style-type: disc; /* Use disc bullets */
+    margin-left: 20px; /* Add indentation for bullets */
+}
+
+/* Optional: Adjust spacing between list items */
+.bullet-points li {
+    margin-bottom: 5px;
+}
